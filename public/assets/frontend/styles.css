@@ -1,0 +1,86 @@
+ html,body{
+    background-color: #f7f7f7;
+    font-family: "Battambang", system-ui;
+ }
+ h1,h2,h3,h4,h5,h6{
+    font-family: "Battambang", system-ui;
+ }
+ label,p,a{
+    font-family: "Battambang", system-ui;
+ }
+ a{
+    text-decoration: none;
+    font-family: "Battambang", system-ui;
+ }
+
+.top-navbar{
+    background-color: #0faeec;
+}
+.top-navbar .list-group{
+    list-style: none;
+}
+.list-group{
+    background-color: #0faeec;
+}
+.nav-btn{
+    background-color: #dc2126;
+    font-size: 14px !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+    padding: 8px 12px !important;
+    font-weight: 600;
+}
+
+.cute-navbar {
+    border-bottom: 2px solid #f1f1f1;
+    font-family: 'Poppins', 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1rem;
+    z-index: 1050;
+}
+
+.cute-navbar .nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.cute-navbar .nav-link:hover,
+.cute-navbar .nav-link.active {
+    background-color: #f8f9fa;
+    color: #0d6efd !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none !important;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+.dropdown-menu {
+    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-menu .dropdown-item {
+    font-weight: 500;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #0d6efd;
+    color: white !important;
+}
+
+.top-navbar {
+    background: linear-gradient(45deg, #6fb1fc, #4364f7);
+    font-family: 'Poppins', 'Comic Sans MS', cursive, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.top-navbar a:hover {
+    color: #ffd700 !important;
+}
